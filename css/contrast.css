@@ -1,0 +1,106 @@
+/* header */
+.contrast .acessivel {
+    background: #000;
+}
+.contrast .acessivel li a {
+	background: #fff;
+}
+.contrast .acessivel li a:hover {
+	background: yellow;
+	color: #000;
+}
+
+.contrast,
+.contrast nav div
+{
+    background: black !important;
+    color: white !important;
+}
+.contrast nav div ul li a{
+	color: #000 !important;
+	background: #fff !important;
+}
+.contrast nav div ul li a:hover {
+	color: #000 !important;
+	background: yellow !important;
+}
+.contrast .navbar-nav li a:before {
+	background: none !important;
+}
+
+/* conteudo padrão  */
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+ 
+/* botão */
+.contrast .botao {
+	color: #000 !important;
+	background-color: #fff !important;
+}
+.contrast .botao:hover {
+	color: #000 !important;
+	background-color: yellow !important;
+	border: 4px solid #fff;
+}
+.contrast .botao_parallax {
+	color: #000 !important;
+	background-color: #fff !important;
+}
+.contrast .botao_parallax:hover {
+	color: #000 !important;
+	background-color: yellow !important;
+	border: 4px solid #fff;
+}
+.contrast .parallax_index{
+   	opacity: 0.9 !important;
+}
+
+
+
+/* alto custo */
+.contrast  .link_medicamento {
+	text-decoration: underline !important;
+	color: #fff !important;
+}
+.contrast  .link_medicamento:hover {
+	color: yellow !important;
+}
+
+
+.contrast .botao_contato {
+	color: #000 !important;
+	background: #fff !important;
+}
+.contrast .botao_contato:hover {
+	color: #000 !important;
+	background: yellow !important;
+}
+
+
+/* footer */
+.contrast footer {
+	background: #000 !important;
+}
+.contrast footer a {
+	text-decoration: underline ;
+	color: #fff ;
+}
+.contrast footer a:hover {
+	color: yellow !important;
+}

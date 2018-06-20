@@ -1,0 +1,138 @@
+/**********************************************
+    ==== HEADER - MENU - ESTILO DO HEADER.INC ==== 
+***********************************************/
+.acessivel li a {
+     font-size: 22px;
+}
+.logo{
+	width: 180px;
+}
+.navbar-default .navbar-nav > li > a{
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    font-size: 18px;
+}
+ 
+
+/* ===== TERMINO = HEADER - MENU - ESTILO DO HEADER.INC ===== */
+
+/**********************************************
+    ===== CONTEUDO INDEX.PHP ====
+**********************************************/
+
+    /* BANNER-1 - INDEX  */
+.banner-index{
+	height: 630px;
+}
+
+.h1_principal{
+    font-size: 4.25em;
+    margin-top: 70px;
+}
+.p_principal{
+    font-size: 4.25em;
+}
+
+    /* SOBRE O PROJETO - INDEX */
+.h2_projeto{
+    font-size: 3em; 
+}
+.p_projeto{
+    font-size: 1.5em;
+}
+.img_projeto{
+    margin-top: 5.18em;
+}
+
+    /* PARALLAX */
+
+.conteudo_parallax h2{
+    font-size: 3em;
+}
+.conteudo_parallax p{    
+    font-size: 1.5em;
+}
+
+/* ===== TERMINO CONTEUDO INDEX.PHP ====*/
+
+/**********************************************
+    ===== CONTEUDO ALTO_CUSTO.PHP / USO_CONTINUO.PHP =====
+**********************************************/
+
+    /* PARALLAX */
+.titulo_medicamento{
+    font-size: 4.10em;
+}
+    /* CONTEUDO PRINCIPAL  */
+.segundo_titulo_medicamento{
+    font-size: 2.5em;
+
+}
+.paragrafo_medicamento{
+    font-size: 1.4em;
+}
+.terceiro_titulo_medicamento{
+    font-size: 2em;
+
+
+}
+.link_medicamento{
+    font-size: 2em;
+}
+
+
+/* TITULO COM ADEQUAÇÃO PARA MOBILE */
+@media only screen and (max-width: 768px) {
+	.titulo_medicamento{
+    	font-size: 3.1em;
+	}
+}
+/* ===== TERMINO CONTEUDO ALTO_CUSTO.PHP / USO_CONTINUO.PHP ====*/
+
+/**********************************************
+    ===== CONTEUDO PADRÃO QUEM_SOMOS.PHP ====
+**********************************************/
+.h2_quem_somos  {
+    font-size: 3em;
+}
+.p_quem_somos{
+    font-size: 1.6em;
+
+}
+
+
+
+/**********************************************
+    ===== CONTEUDO PADRÃO CONTATO.PHP ====
+**********************************************/
+
+.paragrafo_contato{
+    font-size: 2.3em;
+}
+.form_contato label {
+	font-size: 2em;
+}
+
+
+
+
+
+/**********************************************
+    ===== FOOTER PADRÃO FOOTER.INC ====
+**********************************************/
+
+footer p{
+    font-size: 1.5em;
+    color: #888888;
+
+}
+footer h3{
+    font-size: 2.5em;
+}
+footer a{
+    font-size: 1.5em;
+}
+
+/* ===== TERMINO PADRÃO FOOTER.INC */

@@ -1,0 +1,354 @@
+/**********************************************
+    ==== HEADER - MENU - ESTILO DO HEADER.INC ==== 
+***********************************************/
+.acessivel {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    list-style: none;
+    margin: 0;
+    background: #eeeee4;
+    border-bottom: 1px dotted #c8c8c8;
+}
+.acessivel li a {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #000;
+}
+.acessivel li a:hover {
+    color: #3fbbc0;
+}
+.logo{
+	width: 156px;
+}
+nav div{
+	background-color:#fff;
+}
+.navbar-default .navbar-nav > li > a{
+	background: #fff none repeat scroll 0 0;
+    color: #252525;
+    display: block;    
+    font-weight: 600;
+    padding: 22px 0;
+    transition: all 500ms ease 0s;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li.current > a{
+	color: #3fbbc0;
+}
+.navbar-default .navbar-nav > li > a:before{
+	position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: #3fbbc0;
+    content: "";
+    transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -webkit-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;	
+}
+
+
+.navbar-default .navbar-nav > li:hover a:before,
+.navbar-default .navbar-nav > li.current a:before{
+	width: 100%;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #252525;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li:hover >a,
+.navbar-default .navbar-nav .open .dropdown-menu > li.current >a {
+    color: #3fbbc0;
+}
+
+
+/* MENU COM ADEQUAÇÃO PARA EXCLUSIVIDADE ACIMA DE 768PX */
+@media only screen and (min-width: 768px) {
+	.navbar-default .navbar-nav > li > a{
+	background: #fff none repeat scroll 0 0;
+    margin-left: 34px;
+    margin-right: 10px;
+    color: #252525;
+    display: block;    
+    font-weight: 600;
+    padding: 22px 0;
+    transition: all 500ms ease 0s;
+    font-family: 'Poppins', sans-serif;
+	}
+}
+
+/* ===== TERMINO = HEADER - MENU - ESTILO DO HEADER.INC ===== */
+
+/**********************************************
+    ===== CONTEUDO INDEX.PHP ====
+**********************************************/
+
+    /* BANNER-1 - INDEX  */
+
+.banner-index{
+    background-image: url('../img/banner-home.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+    background-size: cover;
+    background-position: top;
+}
+.h1_principal{
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+.p_principal{
+    margin-top: 0.75em;
+    color: #3fbbc0;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+    /* SOBRE O PROJETO - INDEX */
+.h2_projeto{
+    margin-top: 1.80em;
+    margin-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
+    color:#404040;
+    font-size: 2.60em;
+    font-weight: bold;
+}
+.p_projeto{
+    color: #888888;
+    font-size: 1.10em;
+    margin-bottom: 2.75em;
+}
+.botao{
+    margin-left: 1.5em;
+    background-color: #3fbbc0;
+    color: #fff;
+    padding: 15px 79px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 500ms ease;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.botao:hover{
+    border: 2px solid #3fbbc0;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.img_projeto{
+    margin-top: 5.18em;
+}
+
+    /* PARALLAX */
+.parallax_index{
+    margin-top: 5em;
+    background-image: url('../img/parallax-home.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteudo_parallax{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.conteudo_parallax h2{
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.conteudo_parallax p{
+    color: #fff;
+    
+    font-size: 1.10em;
+    margin-bottom: 3em;
+}
+
+.botao_parallax{
+    margin-left: 25%;
+    background-color: #3fbbc0;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 500ms ease;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.botao_parallax:hover{
+    border: 2px solid #3fbbc0;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* ===== TERMINO CONTEUDO INDEX.PHP ====*/
+
+/**********************************************
+    ===== CONTEUDO ALTO_CUSTO.PHP / USO_CONTINUO.PHP =====
+**********************************************/
+
+    /* PARALLAX */
+.parallax_medicamento{
+    margin-top: 4em;
+    height: 23em;
+    background-image: url('../img/parallax-medicamento.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center;
+}
+.titulo_medicamento{
+    text-align: center;
+    margin-top: 100px;
+    color: #3fbbc0;
+    font-weight: bold;
+    font-size: 4em;
+}
+    /* CONTEUDO PRINCIPAL  */
+.segundo_titulo_medicamento{
+    color: #404040;
+    font-size: 2em;
+    line-height: 50px;
+    font-weight: 400;
+
+}
+.paragrafo_medicamento{
+    margin-left: 20px;
+    font-size: 1.20em;
+    color:#888888 ;
+}
+.terceiro_titulo_medicamento{
+    color:#3fbbc0;
+    font-size: 1.6em;
+
+
+}
+.lista_medicamentos{
+    margin-bottom: 30px;
+}
+.link_medicamento{
+    font-size: 1.5em;
+}
+@media screen and (min-width: 1200px){
+    .link_medicamento{
+        margin: 1.5em ;
+    }
+}
+@media screen and (max-width: 1199px){
+    .link_medicamento{
+        margin: 0.60em ;
+    }
+}
+@media screen and (max-width: 991px ){
+    .link_medicamento{
+        font-size: 1.5em;
+        display: block;
+        max-width: 300px;
+        
+    }
+}
+
+/* TITULO COM ADEQUAÇÃO PARA MOBILE */
+@media only screen and (max-width: 768px) {
+    .titulo_alto_custo{
+        font-size: 2.5em;
+    }
+    .titulo_medicamento{
+        font-size: 3.1em;
+    }
+}
+/* ===== TERMINO CONTEUDO ALTO_CUSTO.PHP / USO_CONTINUO.PHP ====*/
+
+/**********************************************
+    ===== CONTEUDO PADRÃO QUEM_SOMOS.PHP ====
+**********************************************/
+.h2_quem_somos  {
+    margin-top: 2.80em;
+    margin-bottom: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    color:#404040;
+    font-size: 2.60em;
+    font-weight: bold;
+}
+.p_quem_somos{
+    font-size: 1.40em;
+    margin-top: 23px;
+    color:#888888 ;
+}
+
+
+
+/**********************************************
+    ===== CONTEUDO PADRÃO CONTATO.PHP ====
+**********************************************/
+.caixa_contato{
+    padding: 50px 10px;
+}
+.paragrafo_contato{
+    font-size: 2.0em;
+    color:#888888 ;
+}
+.formulario_contato{
+    border: 2px solid #3fbbc0;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+/**********************************************
+    ===== FOOTER PADRÃO FOOTER.INC ====
+**********************************************/
+footer{
+  padding-top: 50px;
+  background-color: #222426; 
+  position: relative;
+}
+footer img{
+    width: 300px;
+    margin-bottom: 2em;
+} 
+footer p{
+    font-size: 1.05em;
+    color: #888888;
+
+}
+footer h3{
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+}
+footer a{
+    font-size: 1.25em;
+    line-height: 30px;
+    margin: 10px;
+    color: #3fbbc0;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fff;
+}
+.empurrar{
+    margin-bottom: 100px;
+}
+footer .direitos{
+    background: #000;
+    padding: 2em;
+} 
+footer .direitos h5{
+    color: #fff;
+}
+
+/* ===== TERMINO PADRÃO FOOTER.INC */
